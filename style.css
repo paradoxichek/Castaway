@@ -181,7 +181,7 @@ display: flex;
 justify-content: center;
 
 
-width: 1200px;
+max-width: 1200px;
 height: 545px;
 border-radius: 32px;
 background: #000;
@@ -328,21 +328,17 @@ height: 550px;
     display: flex;
     justify-content: center;
 }
-.subs_flex{
-   
-    padding:  0 20px;
-    width: 1200px;
+.f_flex {
+    padding: 0 40px;
+width: fit-content;
     height: 387px;
     flex-shrink: 0;
-
     border-radius: 32px;
-background: #000;
-
-
-display: flex;
-justify-content: center;
-align-items: top;
-gap: 100px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 100px;
 }
 .subs{
 padding: 200px;

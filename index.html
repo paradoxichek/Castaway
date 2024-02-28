@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
     rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
   <title>Castaway</title>
 </head>
 
@@ -34,11 +35,12 @@
           </svg>
         </div>
 
-        <nav>
-          <a href="#" id="Aqua">Home</a>
-          <a href="#">Episodes</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+        <nav class="nav">
+    <p class="hamburger" style="display: none;"><i class='bx bx-menu'></i></p>
+          <a href="#" id="Aqua" class="adapnone2">Home</a>
+          <a href="#"class="adapnone2">Episodes</a>
+          <a href="#" class="adapnone">About</a>
+          <a href="#" class="adapnone">Contact</a>
         </nav>
       </header>
     </div>
@@ -64,8 +66,8 @@
           <div class="listen"  data-aos="fade-left" data-aos-duration="3000">
 
             <div class="listen_svg">
-              <p>Listen on</p>
-              <div class="listen_grid">
+              <p class="adapnone" >Listen on</p>
+              <div class="listen_grid adapnone" >
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                   <g clip-path="url(#clip0_2_65)">
@@ -246,7 +248,7 @@
 
 
         <div class="btn"  data-aos="fade-left" data-aos-duration="1500">
-          <button>View all episodes</button>
+          <button >View all episodes</button>
         </div>
 
 
@@ -263,7 +265,7 @@
       <div class="episode_microphones">
 
         <div class="episode_microphones_item"  data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">  >
+        data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">  
 
 
 
@@ -275,7 +277,7 @@
 
             <div class="items">
 
-              <div class="episode_gray">
+              <div class="episode_gray adapnone2" >
                 <p>Gear</p>
               </div>
   
@@ -288,7 +290,7 @@
                 <p>Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
               </div>
               <div class="btn">
-                <button>View Episode Details</button>
+                <button class="adapnone2" >View Episode Details</button>
               </div>
             </div>
           </div>
@@ -299,7 +301,7 @@
 
         </div>
         <div class="episode_microphones_item" data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"  data-aos-duration="1500"> >
+        data-aos-anchor-placement="center-bottom"  data-aos-duration="1500"> 
 
 
 
@@ -311,7 +313,7 @@
 
             <div class="items">
 
-              <div class="episode_gray">
+              <div class="episode_gray adapnone2" >
                 <p id="inoo">Tips & Tricks</p>
               </div>
   
@@ -324,7 +326,7 @@
                 <p>Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
               </div>
               <div class="btn">
-                <button>View Episode Details</button>
+                <button class="adapnone2" >View Episode Details</button>
               </div>
             </div>
           </div>
@@ -335,7 +337,7 @@
 
         </div>
         <div class="episode_microphones_item" data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom" data-aos-duration="1500" > >
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1500" > 
 
 
 
@@ -347,8 +349,8 @@
 
             <div class="items">
 
-              <div class="episode_gray">
-                <p>Gear</p>
+              <div class="episode_gray adapnone2" >
+                <p >Gear</p>
               </div>
   
               <div class="episode_number">
@@ -360,7 +362,7 @@
                 <p>With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
               </div>
               <div class="btn">
-                <button>View Episode Details</button>
+                <button class="adapnone2" >View Episode Details</button>
               </div>
             </div>
           </div>
@@ -377,12 +379,12 @@
   </section>
 
 
-<section class="nigga2">
+<section class="nigga2 adapnone2">
 
 <div class="container">
     <div class="center">
       <div class="text" data-aos="fade-right" data-aos-duration="2000">
-    <img src="./img/123.png" alt="">
+    <img src="./img/123.png" alt="" class="arrowblue">
     <div class="center_blue">
       <p>Meet your host</p>
     </div>
@@ -403,7 +405,7 @@
 </section>
 
 
-<section class="subs" data-aos="fade-up" data-aos-duration="2000">
+<section class="subs" >
   <div class=" container">
     <div class="ffflex">
       <div class="subs_flex">
@@ -1064,5 +1066,6 @@
 <script>
   AOS.init();
 </script>
+
 
 </html>
